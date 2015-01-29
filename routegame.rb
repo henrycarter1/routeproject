@@ -9,7 +9,6 @@ word = []
 
 get "/word/*" do
   puts params[:splat][0].split('/').inspect
-  if params[:splat][0].split('/').length == 4 then "Hi" end
 end
 
 
